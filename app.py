@@ -127,7 +127,7 @@ def chat():
             return jsonify({"error": "No JSON data provided"}), 400
         
         prompt = data.get('prompt')
-        model = data.get('model')
+        model = data.get('model', 'gemini')
         
         if not prompt:
             return jsonify({"error": "Prompt is required"}), 400
