@@ -127,7 +127,7 @@ def chat():
             return jsonify({"error": "No JSON data provided"}), 400
         
         prompt = data.get('prompt')
-        model = data.get('model', 'llama')  # Default to llama
+        model = data.get('model')
         
         if not prompt:
             return jsonify({"error": "Prompt is required"}), 400
