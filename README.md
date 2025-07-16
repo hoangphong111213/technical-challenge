@@ -7,9 +7,10 @@
 
 ### Installation
 1. Clone the repository
-````bash`
+````bash
 git clone <your-repo-url>
 cd llm-service
+````
 
 2. Install dependencies
 pip install -r requirements.txt
