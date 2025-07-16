@@ -1,0 +1,19 @@
+timestamp,model,prompt,response,latency_ms,prompt_tokens,response_tokens
+2025-07-16T23:54:07.052852,gemini,What is the capital of France?,The capital of France is **Paris**.,3062,6,6
+2025-07-16T23:54:13.541708,gemini,"Explain quantum computing in simple terms, less than 200 characters.",Quantum computers use tiny particles' weird rules (superposition & entanglement) to solve complex problems faster than regular computers.,5473,10,18
+2025-07-16T23:54:17.448802,gemini,"Write a short poem, less than 200 characters, about coding.","Logic's loom,
+Ideas bloom.
+Code's a song,
+Making dreams strong.",2894,10,10
+2025-07-16T23:54:21.202364,mistral,What is the capital of France?," The capital of France is Paris. It is located in the north-central part of the country. Paris is known for its iconic landmarks such as the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and the Arc de Triomphe. It is one of the world's leading business and cultural centers.",2735,6,48
+2025-07-16T23:54:24.730153,mistral,"Explain quantum computing in simple terms, less than 200 characters."," Quantum computing uses quantum bits (qubits) that can be 0, 1, or both at the same time, allowing for simultaneous processing, potentially solving complex problems much faster than classical computers.",2511,10,30
+2025-07-16T23:54:28.136576,mistral,"Write a short poem, less than 200 characters, about coding."," In silicon's heart, secrets unfold,
+
+Binary whispers, stories untold.
+Loops dance, functions unfurled,
+In a world both orderly and bold.
+
+Code weaves dreams into the night,
+As sunlight of logic takes flight.
+In this realm where thoughts take flight,
+We find the stars within our sight.",2394,10,46
